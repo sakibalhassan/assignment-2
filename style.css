@@ -52,8 +52,17 @@ button :hover {
 }
 
 /*------------------
-    box-2 end 
+    box-1 end 
 --------------------*/
+.box-6 {
+    margin-top: 2%;
+    border: 1px solid black;
+    width: 20%;
+    height: 10%;
+    background-color: black;
+    border-radius: 5px;
+}
+
 /*------------------------
  blogs start
  -------------------------- */
@@ -66,7 +75,9 @@ button :hover {
     margin-left: 15%;
 }
 
-.blog-info {}
+.blog-info {
+    margin-left: 5px;
+}
 
 
 /* footer start */
@@ -102,4 +113,9 @@ hr {
 
 .menu :hover {
     background-color: green;
+}
+
+.icon {
+
+    margin-left: 50%;
 }
