@@ -1,0 +1,105 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+
+}
+
+/*---------------------
+box-1 start
+----------------------- */
+.box {
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.color {
+    color: white;
+    margin-left: 80px;
+}
+
+h2 {
+
+    font-size: 60px;
+
+
+}
+
+button {
+    color: white;
+    margin-left: 80px;
+    width: 130px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+
+
+}
+
+button :hover {
+    background-color: aqua;
+}
+
+.box img {
+    /* margin-top: 80px;
+    margin-left: 60px; */
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------
+    box-2 end 
+--------------------*/
+/*------------------------
+ blogs start
+ -------------------------- */
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.blog-info {}
+
+
+/* footer start */
+.box-3 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: black;
+    text-transform: capitalize;
+}
+
+footer {
+    margin-top: 10%;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
+    margin-bottom: 27px;
+}
+
+.menu {
+    color: #d1d1d1;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.menu :hover {
+    background-color: green;
+}
